@@ -10,10 +10,11 @@
 }
 img {
     display: block;
-    width: 30vmin;
-    height: 30vmin;
-    margin: 35vmin auto;
+    width: 25vmin;
+    height: 25vmin;
+    margin: 37.5vmin auto;
     animation-name: zoom-in;
+    animation-duration: 1s;
 }
 img:active {
     animation-name: none;
@@ -24,5 +25,7 @@ img:hover {
     box-shadow: 0 0 10px .5px black; */
 }
 a {
-    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
