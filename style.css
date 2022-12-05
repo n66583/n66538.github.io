@@ -29,3 +29,8 @@ a {
     left: 0;
     top: 0;
 }
+label {
+    position: absolute;
+    left: 0;
+    top: 20px;
+}
