@@ -51,3 +51,15 @@ label {
     left: 0;
     top: 20px;
 }
+[src="favicon.png"] {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: block;
+    aspect-ratio: 636 / 500;
+    width: 10vmin;
+    margin: 0;
+}
+.sdl {
+    padding: 0;
+}
