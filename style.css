@@ -59,7 +59,7 @@ label {
     aspect-ratio: 500 / 636;
     width: 10vmin;
     margin: 0;
-    transition: all .3s linear;
+    transition: all .2s ease-in;
 }
 [src="favicon.png"]:hover {
     bottom: 20px;
