@@ -17,6 +17,12 @@ img {
     position: absolute;
     right: 0;
 }
+a {
+    transition: all .5s ease-out;
+}
+a:hover {
+    color: red;
+}
 img:active {
     animation-name: none;
 }
