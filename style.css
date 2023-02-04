@@ -10,11 +10,12 @@
 }
 img {
     display: block;
-    width: 25vmin;
-    height: 25vmin;
-    margin: 37.5vmin auto;
+    width: 10vmin;
+    height: 10vmin;
     animation-name: zoom-in;
     animation-duration: 1s;
+    position: absolute;
+    right: 0;
 }
 img:active {
     animation-name: none;
@@ -24,10 +25,15 @@ img:hover {
     transition: all 1s ease-out;
     box-shadow: 0 0 10px .5px black; */
 }
-a {
+[href="README.md"] {
     position: absolute;
     left: 0;
     top: 0;
+}
+.fc {
+    display: grid;
+    justify-content: center;
+    align-item: center;
 }
 label {
     position: absolute;
