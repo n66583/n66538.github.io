@@ -56,9 +56,13 @@ label {
     bottom: 0;
     left: 0;
     display: block;
-    aspect-ratio: 636 / 500;
+    aspect-ratio: 500 / 636;
     width: 10vmin;
     margin: 0;
+    transition: all .3s linear;
+}
+[src="favicon.png"]:hover {
+    bottom: 15px;
 }
 .sdl {
     padding: 0;
