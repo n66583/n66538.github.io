@@ -62,7 +62,7 @@ label {
     transition: all .3s linear;
 }
 [src="favicon.png"]:hover {
-    bottom: 15px;
+    bottom: 20px;
 }
 .sdl {
     padding: 0;
